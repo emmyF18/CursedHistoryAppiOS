@@ -14,6 +14,9 @@
 		E9CC4C9B2379C9A9001960D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CC4C992379C9A9001960D6 /* LaunchScreen.storyboard */; };
 		E9CC4CA62379C9A9001960D6 /* HistoryApplicationIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC4CA52379C9A9001960D6 /* HistoryApplicationIOSTests.swift */; };
 		E9CC4CB12379C9A9001960D6 /* HistoryApplicationIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC4CB02379C9A9001960D6 /* HistoryApplicationIOSUITests.swift */; };
+		E9CC4CBF2379CF59001960D6 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC4CBE2379CF59001960D6 /* HomePageViewController.swift */; };
+		E9CC4CC12379CF6C001960D6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC4CC02379CF6C001960D6 /* MapViewController.swift */; };
+		E9CC4CC32379CFAD001960D6 /* BuildingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CC4CC22379CFAC001960D6 /* BuildingListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E9CC4CAC2379C9A9001960D6 /* HistoryApplicationIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistoryApplicationIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CC4CB02379C9A9001960D6 /* HistoryApplicationIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryApplicationIOSUITests.swift; sourceTree = "<group>"; };
 		E9CC4CB22379C9A9001960D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9CC4CBE2379CF59001960D6 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		E9CC4CC02379CF6C001960D6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E9CC4CC22379CFAC001960D6 /* BuildingListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				E9CC4C902379C9A8001960D6 /* AppDelegate.swift */,
 				E9CC4C922379C9A8001960D6 /* ViewController.swift */,
 				E9CC4C942379C9A8001960D6 /* Main.storyboard */,
+				E9CC4CBE2379CF59001960D6 /* HomePageViewController.swift */,
+				E9CC4CC02379CF6C001960D6 /* MapViewController.swift */,
+				E9CC4CC22379CFAC001960D6 /* BuildingListViewController.swift */,
 				E9CC4C972379C9A9001960D6 /* Assets.xcassets */,
 				E9CC4C992379C9A9001960D6 /* LaunchScreen.storyboard */,
 				E9CC4C9C2379C9A9001960D6 /* Info.plist */,
@@ -258,6 +267,9 @@
 			files = (
 				E9CC4C932379C9A8001960D6 /* ViewController.swift in Sources */,
 				E9CC4C912379C9A8001960D6 /* AppDelegate.swift in Sources */,
+				E9CC4CC32379CFAD001960D6 /* BuildingListViewController.swift in Sources */,
+				E9CC4CBF2379CF59001960D6 /* HomePageViewController.swift in Sources */,
+				E9CC4CC12379CF6C001960D6 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
