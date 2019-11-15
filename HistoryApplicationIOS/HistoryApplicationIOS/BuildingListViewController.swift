@@ -13,7 +13,7 @@ class BuildingListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = .red
+        self.view.backgroundColor = #colorLiteral(red: 0.7059586644, green: 0.1245975569, blue: 0.1057236865, alpha: 1)
 
         // Do any additional setup after loading the view.
     }
