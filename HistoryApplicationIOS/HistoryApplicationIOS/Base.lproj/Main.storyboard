@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dzW-b6-YTP">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,29 +18,76 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeA-SR-3ot">
-                                <rect key="frame" x="115" y="468" width="183" height="112"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="map-search" translatesAutoresizingMaskIntoConstraints="NO" id="hK9-r0-GZi">
+                                <rect key="frame" x="57" y="460" width="129" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next Page"/>
+                                <color key="backgroundColor" red="0.5830827355" green="0.093061663210000006" blue="0.14882925150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <connections>
-                                    <segue destination="qlb-La-RYF" kind="show" id="Smo-l9-GOk"/>
+                                    <outletCollection property="gestureRecognizers" destination="0a9-kE-Fij" appends="YES" id="dmn-Nk-wdJ"/>
                                 </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hello" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7ZG-Lo-sHb">
-                                <rect key="frame" x="144" y="215" width="177" height="30"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Iowa History Center" translatesAutoresizingMaskIntoConstraints="NO" id="UiH-fB-sHv">
+                                <rect key="frame" x="89" y="312" width="237" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="information" translatesAutoresizingMaskIntoConstraints="NO" id="GPA-f1-vBf">
+                                <rect key="frame" x="57" y="617" width="129" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5830827355" green="0.093061663210000006" blue="0.14882925150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="1RY-BZ-bpD" appends="YES" id="o1F-ja-5p9"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eeA-SR-3ot">
+                                <rect key="frame" x="32" y="112" width="350" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next Page" image="Simpson Logo">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="help-circle" translatesAutoresizingMaskIntoConstraints="NO" id="0Q9-Y3-Jrd">
+                                <rect key="frame" x="236" y="617" width="129" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5830827355" green="0.093061663210000006" blue="0.14882925150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="VRX-Po-opq" appends="YES" id="ZVS-Dd-9sW"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="view-list" translatesAutoresizingMaskIntoConstraints="NO" id="bEB-Ib-Xlf">
+                                <rect key="frame" x="57" y="746" width="129" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.5830827355" green="0.093061663210000006" blue="0.14882925150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ZgG-Kr-mgp" appends="YES" id="QQp-q1-Nl3"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3I-Ye-WPY">
+                                <rect key="frame" x="236" y="447" width="129" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="view-list" backgroundImage="view-list"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="9Z1-fR-sWP"/>
                     </view>
+                    <navigationItem key="navigationItem" id="0V8-Pm-SZy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ZgG-Kr-mgp">
+                    <connections>
+                        <action selector="imageClicked:" destination="BYZ-38-t0r" id="Qod-D4-IYq"/>
+                        <segue destination="qlb-La-RYF" kind="show" id="vu7-iq-3Fr"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="0a9-kE-Fij"/>
+                <tapGestureRecognizer id="1RY-BZ-bpD"/>
+                <tapGestureRecognizer id="VRX-Po-opq"/>
             </objects>
-            <point key="canvasLocation" x="-520.89897080445303" y="126.90330038265304"/>
+            <point key="canvasLocation" x="521.73913043478262" y="126.5625"/>
         </scene>
         <!--Building List View Controller-->
         <scene sceneID="fGT-QQ-HmA">
@@ -51,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="il8-1d-Qlf">
-                                <rect key="frame" x="0.0" y="44" width="414" height="922"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="878"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h5g-XG-L8n">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
@@ -195,13 +242,13 @@
                                                 </state>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.70595866439999999" green="0.1245975569" blue="0.1057236865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.58308273553848267" green="0.093061663210391998" blue="0.14882925152778625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1000" id="oaM-WW-aSQ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.70595866441726685" green="0.12459755688905716" blue="0.10572368651628494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.58308273553848267" green="0.093061663210391998" blue="0.14882925152778625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="h5g-XG-L8n" firstAttribute="top" secondItem="il8-1d-Qlf" secondAttribute="top" id="FUy-Lb-87p"/>
                                     <constraint firstAttribute="bottom" secondItem="h5g-XG-L8n" secondAttribute="bottom" id="SDg-WA-xQM"/>
@@ -225,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iLn-FH-x11" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="697.10144927536237" y="127.23214285714285"/>
+            <point key="canvasLocation" x="1607.2463768115942" y="127.23214285714285"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="rVy-HS-EnX">
@@ -240,7 +287,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MkG-Ym-vSb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1855.0724637681162" y="127.23214285714285"/>
+            <point key="canvasLocation" x="2765.217391304348" y="127.23214285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fUI-Ej-mbG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dzW-b6-YTP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3N3-m3-XHS">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.58308273553848267" green="0.093061663210391998" blue="0.14882925152778625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.90303927659988403" green="0.71078222990036011" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Zkz-lZ-JLO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="utx-mh-eKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-521.73913043478262" y="126.5625"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Iowa History Center" width="630" height="148"/>
+        <image name="Simpson Logo" width="1272" height="644"/>
+        <image name="help-circle" width="24" height="24"/>
+        <image name="information" width="24" height="24"/>
+        <image name="map-search" width="18" height="18"/>
+        <image name="view-list" width="16" height="16"/>
+    </resources>
 </document>
