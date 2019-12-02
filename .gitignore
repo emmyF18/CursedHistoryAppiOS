@@ -67,5 +67,6 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-*.DS_Store
 .DS_Store
+HistoryApplicationIOS/.DS_Store
+HistoryApplicationIOS/HistoryApplicationIOS/.DS_Store
