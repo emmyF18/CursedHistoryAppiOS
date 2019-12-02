@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37110240238309620087CE04 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3711023F238309620087CE04 /* Map.storyboard */; };
 		6AC607A20AAFC368A31CBAF2 /* Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2A6DB1915DC51A425F83D /* Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework */; };
 		7093E35F24AD955D3C979B73 /* Pods_HistoryApplicationIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0ADBE82F77E80CEFF60F2F /* Pods_HistoryApplicationIOSTests.framework */; };
 		87FF1C588C8BEE852047C8E9 /* Pods_HistoryApplicationIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA35604FAF251212FB7EF94C /* Pods_HistoryApplicationIOS.framework */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		30392CDCDDD97ABF96361023 /* Pods-HistoryApplicationIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOS.release.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOS/Pods-HistoryApplicationIOS.release.xcconfig"; sourceTree = "<group>"; };
 		330B921D01672FFF707388F3 /* Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests/Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3711023F238309620087CE04 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		43A8A9CB86D4B38EADDEAD33 /* Pods-HistoryApplicationIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOS.debug.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOS/Pods-HistoryApplicationIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4A7BFEFE013EAE314B2922E6 /* Pods-HistoryApplicationIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOSTests/Pods-HistoryApplicationIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75A2A6DB1915DC51A425F83D /* Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,7 +152,6 @@
 				E9CC4C972379C9A9001960D6 /* Assets.xcassets */,
 				E9CC4C992379C9A9001960D6 /* LaunchScreen.storyboard */,
 				E9CC4C9C2379C9A9001960D6 /* Info.plist */,
-				3711023F238309620087CE04 /* Map.storyboard */,
 			);
 			path = HistoryApplicationIOS;
 			sourceTree = "<group>";
@@ -289,7 +286,6 @@
 				E9CC4C9B2379C9A9001960D6 /* LaunchScreen.storyboard in Resources */,
 				E9CC4C982379C9A9001960D6 /* Assets.xcassets in Resources */,
 				E9CC4C962379C9A8001960D6 /* Main.storyboard in Resources */,
-				37110240238309620087CE04 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +507,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5JPNG9EH6C;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -572,6 +569,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5JPNG9EH6C;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
