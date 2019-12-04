@@ -2,6 +2,36 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../BPacInterior.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../BPacMain.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../BPacOld.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../Buxton.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:../../Carver.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../DunnLibrary.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../DunnLibraryOutside.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../Hillman_Old.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../Hillman.png">
+   </FileRef>
+   <FileRef
+      location = "group:../../Screen Shot 2019-11-24 at 1.22.52 PM.png">
+   </FileRef>
+   <FileRef
       location = "group:HistoryApplicationIOS.xcodeproj">
    </FileRef>
    <FileRef
