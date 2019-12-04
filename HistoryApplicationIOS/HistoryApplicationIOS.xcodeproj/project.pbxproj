@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63FF2311239700D900C06FC3 /* HistoryAppiOS_final in Resources */ = {isa = PBXBuildFile; fileRef = 63FF230B239700D900C06FC3 /* HistoryAppiOS_final */; };
+		63FF2313239700D900C06FC3 /* Buxton_Top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF230D239700D900C06FC3 /* Buxton_Top.jpg */; };
+		63FF23212397012700C06FC3 /* Screen Shot 2019-11-24 at 1.22.52 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF23172397012600C06FC3 /* Screen Shot 2019-11-24 at 1.22.52 PM.png */; };
+		63FF23222397012700C06FC3 /* DunnLibrary.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF23182397012700C06FC3 /* DunnLibrary.png */; };
+		63FF23232397012700C06FC3 /* DunnLibraryOutside.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF23192397012700C06FC3 /* DunnLibraryOutside.png */; };
+		63FF23242397012700C06FC3 /* Hillman.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF231A2397012700C06FC3 /* Hillman.png */; };
+		63FF23252397012700C06FC3 /* Carver.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF231B2397012700C06FC3 /* Carver.png */; };
+		63FF23262397012700C06FC3 /* BPacMain.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF231C2397012700C06FC3 /* BPacMain.png */; };
+		63FF23272397012700C06FC3 /* BPacInterior.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF231D2397012700C06FC3 /* BPacInterior.png */; };
+		63FF23282397012700C06FC3 /* Hillman_Old.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF231E2397012700C06FC3 /* Hillman_Old.png */; };
+		63FF23292397012700C06FC3 /* Buxton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF231F2397012700C06FC3 /* Buxton.jpg */; };
+		63FF232A2397012700C06FC3 /* BPacOld.png in Resources */ = {isa = PBXBuildFile; fileRef = 63FF23202397012700C06FC3 /* BPacOld.png */; };
+		63FF233F23970A7E00C06FC3 /* Music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233523970A7D00C06FC3 /* Music.jpg */; };
+		63FF234023970A7E00C06FC3 /* Smith Chapel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233623970A7D00C06FC3 /* Smith Chapel.jpeg */; };
+		63FF234123970A7E00C06FC3 /* Pfeiffer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233723970A7D00C06FC3 /* Pfeiffer.jpg */; };
+		63FF234223970A7E00C06FC3 /* Great Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233823970A7D00C06FC3 /* Great Hall.jpg */; };
+		63FF234323970A7E00C06FC3 /* Wallace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233923970A7D00C06FC3 /* Wallace.jpg */; };
+		63FF234423970A7E00C06FC3 /* Cowles.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233A23970A7D00C06FC3 /* Cowles.jpeg */; };
+		63FF234523970A7E00C06FC3 /* Mcneill.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233B23970A7D00C06FC3 /* Mcneill.jpeg */; };
+		63FF234623970A7E00C06FC3 /* College Hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233C23970A7D00C06FC3 /* College Hall.jpg */; };
+		63FF234723970A7E00C06FC3 /* MerryBerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233D23970A7E00C06FC3 /* MerryBerry.jpg */; };
+		63FF234823970A7E00C06FC3 /* Kent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63FF233E23970A7E00C06FC3 /* Kent.jpg */; };
 		6AC607A20AAFC368A31CBAF2 /* Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A2A6DB1915DC51A425F83D /* Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework */; };
 		7093E35F24AD955D3C979B73 /* Pods_HistoryApplicationIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0ADBE82F77E80CEFF60F2F /* Pods_HistoryApplicationIOSTests.framework */; };
 		87FF1C588C8BEE852047C8E9 /* Pods_HistoryApplicationIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA35604FAF251212FB7EF94C /* Pods_HistoryApplicationIOS.framework */; };
@@ -44,6 +66,38 @@
 		330B921D01672FFF707388F3 /* Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests/Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		43A8A9CB86D4B38EADDEAD33 /* Pods-HistoryApplicationIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOS.debug.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOS/Pods-HistoryApplicationIOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4A7BFEFE013EAE314B2922E6 /* Pods-HistoryApplicationIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOSTests/Pods-HistoryApplicationIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		63FF230B239700D900C06FC3 /* HistoryAppiOS_final */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HistoryAppiOS_final; path = ../..; sourceTree = "<group>"; };
+		63FF230D239700D900C06FC3 /* Buxton_Top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Buxton_Top.jpg; path = ../../../Buxton_Top.jpg; sourceTree = "<group>"; };
+		63FF23172397012600C06FC3 /* Screen Shot 2019-11-24 at 1.22.52 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2019-11-24 at 1.22.52 PM.png"; path = "../../Screen Shot 2019-11-24 at 1.22.52 PM.png"; sourceTree = "<group>"; };
+		63FF23182397012700C06FC3 /* DunnLibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DunnLibrary.png; path = ../../DunnLibrary.png; sourceTree = "<group>"; };
+		63FF23192397012700C06FC3 /* DunnLibraryOutside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DunnLibraryOutside.png; path = ../../DunnLibraryOutside.png; sourceTree = "<group>"; };
+		63FF231A2397012700C06FC3 /* Hillman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hillman.png; path = ../../Hillman.png; sourceTree = "<group>"; };
+		63FF231B2397012700C06FC3 /* Carver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Carver.png; path = ../../Carver.png; sourceTree = "<group>"; };
+		63FF231C2397012700C06FC3 /* BPacMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BPacMain.png; path = ../../BPacMain.png; sourceTree = "<group>"; };
+		63FF231D2397012700C06FC3 /* BPacInterior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BPacInterior.png; path = ../../BPacInterior.png; sourceTree = "<group>"; };
+		63FF231E2397012700C06FC3 /* Hillman_Old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hillman_Old.png; path = ../../Hillman_Old.png; sourceTree = "<group>"; };
+		63FF231F2397012700C06FC3 /* Buxton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Buxton.jpg; path = ../../Buxton.jpg; sourceTree = "<group>"; };
+		63FF23202397012700C06FC3 /* BPacOld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BPacOld.png; path = ../../BPacOld.png; sourceTree = "<group>"; };
+		63FF232B2397013A00C06FC3 /* BPacInterior.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BPacInterior.png; sourceTree = "<group>"; };
+		63FF232C2397013A00C06FC3 /* Buxton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Buxton.jpg; sourceTree = "<group>"; };
+		63FF232D2397013A00C06FC3 /* Carver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carver.png; sourceTree = "<group>"; };
+		63FF232E2397013A00C06FC3 /* BPacMain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BPacMain.png; sourceTree = "<group>"; };
+		63FF232F2397013A00C06FC3 /* DunnLibrary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DunnLibrary.png; sourceTree = "<group>"; };
+		63FF23302397013A00C06FC3 /* Screen Shot 2019-11-24 at 1.22.52 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-11-24 at 1.22.52 PM.png"; sourceTree = "<group>"; };
+		63FF23312397013A00C06FC3 /* DunnLibraryOutside.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DunnLibraryOutside.png; sourceTree = "<group>"; };
+		63FF23322397013B00C06FC3 /* Hillman_Old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hillman_Old.png; sourceTree = "<group>"; };
+		63FF23332397013B00C06FC3 /* Hillman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hillman.png; sourceTree = "<group>"; };
+		63FF23342397013B00C06FC3 /* BPacOld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BPacOld.png; sourceTree = "<group>"; };
+		63FF233523970A7D00C06FC3 /* Music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Music.jpg; path = ../../../Music.jpg; sourceTree = "<group>"; };
+		63FF233623970A7D00C06FC3 /* Smith Chapel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Smith Chapel.jpeg"; path = "../../../Smith Chapel.jpeg"; sourceTree = "<group>"; };
+		63FF233723970A7D00C06FC3 /* Pfeiffer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Pfeiffer.jpg; path = ../../../Pfeiffer.jpg; sourceTree = "<group>"; };
+		63FF233823970A7D00C06FC3 /* Great Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Great Hall.jpg"; path = "../../../Great Hall.jpg"; sourceTree = "<group>"; };
+		63FF233923970A7D00C06FC3 /* Wallace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Wallace.jpg; path = ../../../Wallace.jpg; sourceTree = "<group>"; };
+		63FF233A23970A7D00C06FC3 /* Cowles.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Cowles.jpeg; path = ../../../Cowles.jpeg; sourceTree = "<group>"; };
+		63FF233B23970A7D00C06FC3 /* Mcneill.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Mcneill.jpeg; path = ../../../Mcneill.jpeg; sourceTree = "<group>"; };
+		63FF233C23970A7D00C06FC3 /* College Hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "College Hall.jpg"; path = "../../../College Hall.jpg"; sourceTree = "<group>"; };
+		63FF233D23970A7E00C06FC3 /* MerryBerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MerryBerry.jpg; path = ../../../MerryBerry.jpg; sourceTree = "<group>"; };
+		63FF233E23970A7E00C06FC3 /* Kent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kent.jpg; path = ../../../Kent.jpg; sourceTree = "<group>"; };
 		75A2A6DB1915DC51A425F83D /* Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HistoryApplicationIOS_HistoryApplicationIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75EA152996F4B9AD684ADF8 /* Pods-HistoryApplicationIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOSTests.release.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOSTests/Pods-HistoryApplicationIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		AF1C8E9979B53488F7738FCB /* Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests/Pods-HistoryApplicationIOS-HistoryApplicationIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +175,16 @@
 		E9CC4C842379C9A8001960D6 = {
 			isa = PBXGroup;
 			children = (
+				63FF231D2397012700C06FC3 /* BPacInterior.png */,
+				63FF231C2397012700C06FC3 /* BPacMain.png */,
+				63FF23202397012700C06FC3 /* BPacOld.png */,
+				63FF231F2397012700C06FC3 /* Buxton.jpg */,
+				63FF231B2397012700C06FC3 /* Carver.png */,
+				63FF23182397012700C06FC3 /* DunnLibrary.png */,
+				63FF23192397012700C06FC3 /* DunnLibraryOutside.png */,
+				63FF231E2397012700C06FC3 /* Hillman_Old.png */,
+				63FF231A2397012700C06FC3 /* Hillman.png */,
+				63FF23172397012600C06FC3 /* Screen Shot 2019-11-24 at 1.22.52 PM.png */,
 				E9CC4C8F2379C9A8001960D6 /* HistoryApplicationIOS */,
 				E9CC4CA42379C9A9001960D6 /* HistoryApplicationIOSTests */,
 				E9CC4CAF2379C9A9001960D6 /* HistoryApplicationIOSUITests */,
@@ -143,9 +207,31 @@
 		E9CC4C8F2379C9A8001960D6 /* HistoryApplicationIOS */ = {
 			isa = PBXGroup;
 			children = (
+				63FF233C23970A7D00C06FC3 /* College Hall.jpg */,
+				63FF233A23970A7D00C06FC3 /* Cowles.jpeg */,
+				63FF233823970A7D00C06FC3 /* Great Hall.jpg */,
+				63FF233E23970A7E00C06FC3 /* Kent.jpg */,
+				63FF233B23970A7D00C06FC3 /* Mcneill.jpeg */,
+				63FF233D23970A7E00C06FC3 /* MerryBerry.jpg */,
+				63FF233523970A7D00C06FC3 /* Music.jpg */,
+				63FF233723970A7D00C06FC3 /* Pfeiffer.jpg */,
+				63FF233623970A7D00C06FC3 /* Smith Chapel.jpeg */,
+				63FF233923970A7D00C06FC3 /* Wallace.jpg */,
+				63FF232B2397013A00C06FC3 /* BPacInterior.png */,
+				63FF232E2397013A00C06FC3 /* BPacMain.png */,
+				63FF23342397013B00C06FC3 /* BPacOld.png */,
+				63FF232C2397013A00C06FC3 /* Buxton.jpg */,
+				63FF232D2397013A00C06FC3 /* Carver.png */,
+				63FF232F2397013A00C06FC3 /* DunnLibrary.png */,
+				63FF23312397013A00C06FC3 /* DunnLibraryOutside.png */,
+				63FF23322397013B00C06FC3 /* Hillman_Old.png */,
+				63FF23332397013B00C06FC3 /* Hillman.png */,
+				63FF23302397013A00C06FC3 /* Screen Shot 2019-11-24 at 1.22.52 PM.png */,
 				E9CC4C902379C9A8001960D6 /* AppDelegate.swift */,
 				E9CC4C922379C9A8001960D6 /* ViewController.swift */,
 				E9CC4C942379C9A8001960D6 /* Main.storyboard */,
+				63FF230D239700D900C06FC3 /* Buxton_Top.jpg */,
+				63FF230B239700D900C06FC3 /* HistoryAppiOS_final */,
 				E9CC4CBE2379CF59001960D6 /* HomePageViewController.swift */,
 				E9CC4CC02379CF6C001960D6 /* MapViewControler.swift */,
 				E9CC4CC22379CFAC001960D6 /* BuildingListViewController.swift */,
@@ -283,9 +369,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FF234023970A7E00C06FC3 /* Smith Chapel.jpeg in Resources */,
+				63FF23232397012700C06FC3 /* DunnLibraryOutside.png in Resources */,
+				63FF23272397012700C06FC3 /* BPacInterior.png in Resources */,
+				63FF234423970A7E00C06FC3 /* Cowles.jpeg in Resources */,
+				63FF234323970A7E00C06FC3 /* Wallace.jpg in Resources */,
 				E9CC4C9B2379C9A9001960D6 /* LaunchScreen.storyboard in Resources */,
+				63FF23252397012700C06FC3 /* Carver.png in Resources */,
+				63FF2313239700D900C06FC3 /* Buxton_Top.jpg in Resources */,
+				63FF234723970A7E00C06FC3 /* MerryBerry.jpg in Resources */,
+				63FF234523970A7E00C06FC3 /* Mcneill.jpeg in Resources */,
+				63FF234223970A7E00C06FC3 /* Great Hall.jpg in Resources */,
+				63FF234123970A7E00C06FC3 /* Pfeiffer.jpg in Resources */,
+				63FF23292397012700C06FC3 /* Buxton.jpg in Resources */,
 				E9CC4C982379C9A9001960D6 /* Assets.xcassets in Resources */,
+				63FF23262397012700C06FC3 /* BPacMain.png in Resources */,
+				63FF2311239700D900C06FC3 /* HistoryAppiOS_final in Resources */,
+				63FF233F23970A7E00C06FC3 /* Music.jpg in Resources */,
+				63FF234623970A7E00C06FC3 /* College Hall.jpg in Resources */,
+				63FF23242397012700C06FC3 /* Hillman.png in Resources */,
+				63FF23222397012700C06FC3 /* DunnLibrary.png in Resources */,
 				E9CC4C962379C9A8001960D6 /* Main.storyboard in Resources */,
+				63FF232A2397012700C06FC3 /* BPacOld.png in Resources */,
+				63FF234823970A7E00C06FC3 /* Kent.jpg in Resources */,
+				63FF23282397012700C06FC3 /* Hillman_Old.png in Resources */,
+				63FF23212397012700C06FC3 /* Screen Shot 2019-11-24 at 1.22.52 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
